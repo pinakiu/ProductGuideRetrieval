@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Jupyter notebooks checkpoints (if experimenting)
+.ipynb_checkpoints/
+
+# dotenv environment files (store secrets like OpenAI key)
+.env
+.env.*
+
+# Token caches or credential files
+*.token
+*.pem
+*.key
+*.crt
+
+# Uploaded files (if you temporarily store PDFs)
+uploads/
+
+# Local DBs or index files
+*.db
+*.sqlite
+*.json
+index/
+
+# __langchain__ or llamaindex caches (if used)
+cache/
+storage/
+*.faiss
+
+# Docker
+*.pid
+docker-compose.override.yml
