@@ -1,9 +1,9 @@
 fastapi
 uvicorn
 langchain
-openai
-faiss-cpu
-PyPDF2
-tiktoken
-python-multipart
+langchain-google-vertexai
+langchain-community
+langchain-core
 python-dotenv
+pypdf
+tqdm
